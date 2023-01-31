@@ -1,10 +1,13 @@
 import "./App.css";
-import Main from "./components/main";
+import Navigation from "./components/Navigation";
+import Router from "./components/Router";
 
 function App() {
   return (
     <div>
-      <Main />
+      <Navigation />
+      <hr />
+      <Router />
     </div>
   );
 }
